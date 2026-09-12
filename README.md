@@ -1,6 +1,6 @@
-# Pragati AI — SIH MVP
+# StatKarm AI — SIH MVP
 
-Pragati AI is a local full-stack prototype for the Smart India Hackathon problem statement: an AI-enabled learning platform that identifies competency gaps, recommends personalised training, and generates quizzes from learning materials for officials working with official statistics.
+Statkarm AI is a local full-stack prototype for the Smart India Hackathon problem statement: an AI-enabled learning platform that identifies competency gaps, recommends personalised training, and generates quizzes from learning materials for officials working with official statistics.
 
 ## Run locally
 
