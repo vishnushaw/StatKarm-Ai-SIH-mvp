@@ -1,0 +1,464 @@
+button {
+  font-family: inherit;
+}
+
+/* StatKarm AI identity and local account entry */
+.brand-mark{width:32px;height:32px;font:800 11px/1 "DM Sans",sans-serif;letter-spacing:-.6px}
+.auth-layout{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 15% 15%,#eaf1ff 0,transparent 32%),#f6f8fc}.auth-card{width:min(100%,460px);padding:38px;border:1px solid #dce5f2;border-radius:18px;background:#fff;box-shadow:0 20px 55px #233c7217}.auth-brand{display:flex;align-items:center;gap:10px;color:#1d3f8c;font-size:25px}.auth-copy{color:#728098;line-height:1.55}.auth-form{display:grid;gap:14px;margin-top:24px}.auth-form label{display:grid;gap:6px;color:#536176;font-size:12px;font-weight:700}.auth-form input{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #d9e1ec;border-radius:8px;font:14px inherit}.auth-form .primary{width:100%;justify-content:center}.auth-error{min-height:18px;margin:0;color:#a1433d;font-size:12px}.auth-switch{text-align:center;color:#69778d;font-size:12px}.auth-switch button,.sign-out-btn{border:0;background:transparent;color:#315bc6;font:700 12px inherit;cursor:pointer}.sign-out-btn{display:block;margin-top:4px;padding:0;font-size:10px}.profile-identity{margin-top:13px!important;color:#536176!important;font-size:12px!important}.profile-identity b{color:#244fad}
+.nav-item {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+}
+.link-button {
+  border: 0;
+  background: none;
+  color: #315bc6;
+  font: 700 12px inherit;
+  cursor: pointer;
+}
+.page-hero {
+  padding: 28px 32px;
+  background: linear-gradient(110deg, #eef3ff, #fbf8f0);
+  border: 1px solid #e4e9f3;
+  border-radius: 14px;
+  margin-bottom: 22px;
+}
+.page-hero h2 {
+  font:
+    700 30px "Playfair Display",
+    serif;
+  margin: 12px 0 7px;
+}
+.page-hero p {
+  max-width: 650px;
+  color: #65738a;
+}
+.course-list {
+  display: grid;
+  gap: 14px;
+  max-width: 900px;
+}
+.course-list .course-card {
+  min-height: 178px;
+}
+.assessment-form {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px;
+  max-width: 850px;
+}
+.assessment-form fieldset,
+.quiz-question {
+  border: 0;
+  border-bottom: 1px solid #e9edf4;
+  margin: 0 0 20px;
+  padding: 0 0 19px;
+}
+.assessment-form legend,
+.quiz-question legend {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.assessment-form legend span {
+  background: #edf1ff;
+  color: #315bc6;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  height: 22px;
+  width: 22px;
+  font-size: 11px;
+  margin-right: 8px;
+}
+.assessment-form small {
+  display: block;
+  color: #8a96a8;
+  margin: 0 0 9px 30px;
+}
+.assessment-form label {
+  display: block;
+  margin: 8px 0;
+  padding: 9px 12px;
+  border: 1px solid #e6eaf2;
+  border-radius: 7px;
+  color: #506078;
+  cursor: pointer;
+}
+.assessment-form label:has(input:checked) {
+  background: #f0f4ff;
+  border-color: #849ce1;
+  color: #254eae;
+}
+.assessment-form input {
+  accent-color: #315bc6;
+}
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.resource-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 19px;
+  display: flex;
+  gap: 14px;
+}
+.resource-card > span {
+  color: #315bc6;
+  background: #edf1ff;
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  font-size: 19px;
+}
+.resource-card small {
+  color: #79879e;
+  font-size: 10px;
+}
+.resource-card h3 {
+  font:
+    700 17px "Playfair Display",
+    serif;
+  margin: 5px 0;
+}
+.resource-card p {
+  font-size: 12px;
+  color: #718098;
+  line-height: 1.45;
+  min-height: 52px;
+}
+.studio {
+  max-width: 800px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 24px;
+}
+.studio textarea {
+  width: 100%;
+  height: 105px;
+  border: 1px solid #dce3f0;
+  border-radius: 8px;
+  resize: vertical;
+  padding: 11px;
+  font-family: inherit;
+  color: #536077;
+}
+.studio .primary {
+  display: block;
+  margin-left: auto;
+}
+.quiz-result {
+  margin-top: 24px;
+  border-top: 1px solid #e8edf5;
+  padding-top: 20px;
+}
+.quiz-result h2 {
+  font:
+    700 22px "Playfair Display",
+    serif;
+  margin: 5px 0 18px;
+}
+.quiz-question button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e1e6ef;
+  background: #fff;
+  border-radius: 7px;
+  padding: 9px 11px;
+  margin: 7px 0;
+  cursor: pointer;
+  color: #536077;
+}
+.quiz-question button.correct {
+  background: #dff5ed;
+  border-color: #29a78d;
+  color: #117362;
+}
+.quiz-question button.wrong {
+  background: #fde7e4;
+  border-color: #e78177;
+  color: #af443b;
+}
+.explanation {
+  display: none !important;
+  margin: 10px 0 0 !important;
+  padding: 9px;
+  background: #f6f8fc;
+  border-radius: 6px;
+  color: #5c6980 !important;
+}
+.explanation.show {
+  display: block !important;
+}
+.analytics-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 25px;
+}
+.analytics-panel h2 {
+  font:
+    700 21px "Playfair Display",
+    serif;
+  margin: 3px 0 20px;
+}
+.gap-row {
+  display: grid;
+  grid-template-columns: 145px 1fr 80px;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+  font-size: 12px;
+}
+.gap-row > div {
+  height: 8px;
+  background: #edf0f6;
+  border-radius: 10px;
+}
+.gap-row i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #315bc6, #7a61ca);
+  border-radius: 10px;
+}
+.gap-row b {
+  font-size: 10px;
+  color: #78869b;
+}
+.bar-chart {
+  height: 170px;
+  display: flex;
+  gap: 16px;
+  align-items: end;
+  border-bottom: 1px solid #e6eaf1;
+  padding: 0 8px;
+}
+.bar-chart div {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: #8190a6;
+}
+.bar-chart i {
+  display: block;
+  width: 100%;
+  max-width: 34px;
+  background: linear-gradient(#65b8aa, #315bc6);
+  border-radius: 6px 6px 0 0;
+}
+.settings-card {
+  max-width: 650px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 26px;
+  display: grid;
+  gap: 17px;
+}
+.settings-card label {
+  display: grid;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4d5b72;
+}
+.settings-card input:not([type="checkbox"]) {
+  border: 1px solid #dfe4ee;
+  border-radius: 7px;
+  padding: 10px;
+  font: inherit;
+}
+.settings-card .toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.result-card {
+  padding: 18px;
+}
+.result-score {
+  display: inline-grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #e2f6f0;
+  color: #118a78;
+  font-size: 23px;
+  font-weight: 700;
+}
+.result-card h2 {
+  font:
+    700 25px "Playfair Display",
+    serif;
+  margin: 12px 0 6px;
+}
+.result-card p {
+  color: #65738a;
+}
+.result-card h3 {
+  margin: 21px 0 8px;
+}
+.recommendation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  border: 1px solid #e4e9f2;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px 0;
+  color: #315bc6;
+  font-weight: 700;
+  cursor: pointer;
+}
+.toast {
+  position: fixed;
+  bottom: 24px;
+  right: 28px;
+  z-index: 8;
+  background: #172445;
+  color: #fff;
+  padding: 13px 17px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px #17244544;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: 0.2s;
+  pointer-events: none;
+}
+.toast.show {
+  opacity: 1;
+  transform: none;
+}
+.loading,
+.fatal {
+  font:
+    600 18px "DM Sans",
+    sans-serif;
+  padding: 50px;
+}
+.fatal code {
+  background: #eef1f5;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .resource-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .analytics-panel {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 620px) {
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+  .page-hero {
+    padding: 22px;
+  }
+  .page-hero h2 {
+    font-size: 25px;
+  }
+  .assessment-form,
+  .studio {
+    padding: 16px;
+  }
+  .analytics-panel {
+    padding: 17px;
+  }
+  .gap-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gap-row b {
+    grid-column: 2;
+  }
+  .toast {
+    left: 20px;
+    right: 20px;
+    bottom: 18px;
+  }
+}
+
+.igot-recommendations {
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.recommendations-header {
+  margin-bottom: 20px;
+}
+
+.recommendations-header h3 {
+  margin: 4px 0 6px;
+  font-size: 24px;
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.recommendation-card {
+  padding: 20px;
+  border: 1px solid #e1e7f0;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.recommendation-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.recommendation-card h4 {
+  margin: 6px 0 8px;
+  font-size: 18px;
+}
+
+.recommendation-card p {
+  color: #667085;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.recommendation-meta {
+  margin: 12px 0;
+  font-size: 13px;
+  color: #667085;
+}
+
+.recommendation-card .direct-link-btn {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .recommendations-grid {
+    grid-template-columns: 1fr;
+  }
+}

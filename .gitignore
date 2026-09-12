@@ -1,0 +1,13 @@
+backend/.env
+uploaded-pdfs/
+__pycache__/
+*.pyc
+
+.vercel
+.env*
+node_modules/
+.next/
+.pnpm-store/
+tsconfig.tsbuildinfo
+backend/.venv/
+backend/.chroma/

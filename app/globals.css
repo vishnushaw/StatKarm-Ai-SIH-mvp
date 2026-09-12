@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{box-sizing:border-box}body{margin:0;background:#f7f8fc;color:#172445;font-family:"DM Sans",Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}h1,h2,h3,p{margin:0}.font-display{font-family:"Playfair Display",Georgia,serif}.radar-label{font:7px Arial,sans-serif;fill:#6f7d93}.radar-grid{fill:#f5f8ff;stroke:#d9e1ee}.radar-ring{fill:none;stroke:#e1e6ef;stroke-dasharray:3 3}.radar-current{fill:#315bc655;stroke:#315bc6;stroke-width:2.5}.radar-benchmark{fill:#f6c75d35;stroke:#d89e24;stroke-width:2}
